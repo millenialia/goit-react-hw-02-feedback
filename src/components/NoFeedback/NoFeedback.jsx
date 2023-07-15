@@ -1,8 +1,9 @@
 import PropTypes from "prop-types";
+import css  from "./NoFeedback.module.css";
 
 export const Notification = ({ message }) => {
   return (
-    <p className="notification">{message}</p>
+    <p className={css.notification}>{message}</p>
   )
 }
 

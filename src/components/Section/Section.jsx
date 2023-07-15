@@ -1,5 +1,6 @@
 import PropTypes from "prop-types";
 
+
 export const Section = ({ title, className, children }) => {
   return (
     <section className={className}>

@@ -36,7 +36,6 @@ export class App extends Component {
 
 
   render() {
-    const { good, neutral, bad } = this.state
 
     return (
       <div className={css.feedbackForm}>

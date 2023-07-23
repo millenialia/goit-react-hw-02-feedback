@@ -53,9 +53,6 @@ export class App extends Component {
           {this.countTotalFeedback()
             ?
             <Statistics
-              // good={good}
-              // neutral={neutral}
-              // bad={bad}
               options={Object.keys(this.state)}
               values={Object.values(this.state)}
               total={this.countTotalFeedback()}
